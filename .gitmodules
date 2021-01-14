@@ -10,3 +10,12 @@
 [submodule "lib/SparkFun-KiCad-Libraries"]
 	path = lib/SparkFun-KiCad-Libraries
 	url = https://github.com/sparkfun/SparkFun-KiCad-Libraries.git
+[submodule "Cherry-MX-Breakout-Board"]
+	path = Cherry-MX-Breakout-Board
+	url = https://github.com/sszczep/Cherry-MX-Breakout-Board.git
+[submodule "lib/nice-nano-kicad"]
+	path = lib/nice-nano-kicad
+	url = https://github.com/bstiq/nice-nano-kicad.git
+[submodule "lib/qmk_hardware"]
+	path = lib/qmk_hardware
+	url = https://github.com/qmk/qmk_hardware.git
