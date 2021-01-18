@@ -4,7 +4,6 @@
   (lib (name qmk_hardware)(type Legacy)(uri C:/Users/neuro/dev/keyboard/qmk_hardware/kicad/proton_c/proton_c.lib)(options "")(descr ""))
   (lib (name foostan_kbd)(type Legacy)(uri C:/Users/neuro/dev/keyboard/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
   (lib (name kbd)(type Legacy)(uri C:/Users/neuro/dev/keyboard/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
-  (lib (name ktype)(type Legacy)(uri C:/Users/neuro/dev/keyboard/pcb/K-Type/lib/K-Type.lib)(options "")(descr ""))
-  (lib (name K-Type-cache)(type Legacy)(uri C:/Users/neuro/dev/keyboard/pcb/K-Type/K-Type-cache.lib)(options "")(descr ""))
   (lib (name K-Type)(type Legacy)(uri C:/Users/neuro/dev/keyboard/pcb/K-Type/K-Type.lib)(options "")(descr ""))
+  (lib (name K-Type_again)(type Legacy)(uri C:/Users/neuro/dev/keyboard/pcb/K-Type/lib/K-Type.lib)(options "")(descr ""))
 )
