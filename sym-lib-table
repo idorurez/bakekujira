@@ -1,9 +1,5 @@
 (sym_lib_table
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri C:/Users/neuro/dev/keyboard/65-percent-tkl/Schematic_Library/MX_Alps_Hybrid.lib)(options "")(descr ""))
-  (lib (name nice_nano)(type Legacy)(uri C:/Users/neuro/dev/keyboard/nice-nano-kicad/nice_nano.lib)(options "")(descr ""))
-  (lib (name qmk_hardware)(type Legacy)(uri C:/Users/neuro/dev/keyboard/qmk_hardware/kicad/proton_c/proton_c.lib)(options "")(descr ""))
-  (lib (name foostan_kbd)(type Legacy)(uri C:/Users/neuro/dev/keyboard/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
+  (lib (name onigaku)(type Legacy)(uri C:/Users/neuro/dev/keyboard/kicad/symbols/kbd.lib)(options "")(descr ""))
   (lib (name kbd)(type Legacy)(uri C:/Users/neuro/dev/keyboard/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
-  (lib (name K-Type)(type Legacy)(uri C:/Users/neuro/dev/keyboard/pcb/K-Type/K-Type.lib)(options "")(descr ""))
-  (lib (name K-Type_again)(type Legacy)(uri C:/Users/neuro/dev/keyboard/pcb/K-Type/lib/K-Type.lib)(options "")(descr ""))
 )
