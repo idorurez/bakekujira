@@ -1,4 +1,4 @@
-19641322860296598
+19644546565239398
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83132,6 +83132,13 @@ CherryMX_Hotswap_2.75u_North
 2
 2
 kbd
+CherryMX_Hotswap_2u_North
+
+
+0
+2
+2
+kbd
 CherryMX_Hotswap_North
 
 
@@ -83504,6 +83511,13 @@ StripLED_rev
 3
 kbd
 YS-SK6812MINI-E
+
+
+0
+4
+4
+kbd
+YS-SK6812MINI-E_underglow
 
 
 0

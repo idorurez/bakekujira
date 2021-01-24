@@ -2,4 +2,5 @@
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri C:/Users/neuro/dev/keyboard/65-percent-tkl/Schematic_Library/MX_Alps_Hybrid.lib)(options "")(descr ""))
   (lib (name onigaku)(type Legacy)(uri C:/Users/neuro/dev/keyboard/kicad/symbols/kbd.lib)(options "")(descr ""))
   (lib (name kbd)(type Legacy)(uri C:/Users/neuro/dev/keyboard/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
+  (lib (name keebio)(type Legacy)(uri C:/Users/neuro/dev/keyboard/keebio-components/keebio.lib)(options "")(descr ""))
 )
