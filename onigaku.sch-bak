@@ -4426,7 +4426,6 @@ Text GLabel 9900 2125 0    50   Input ~ 0
 LED_L
 Text GLabel 2425 14300 3    50   Input ~ 0
 LED_L
-NoConn ~ 10400 2525
 NoConn ~ 10500 2525
 NoConn ~ 10600 2525
 NoConn ~ 10700 2525
@@ -5988,7 +5987,7 @@ Wire Wire Line
 	22075 7600 22500 7600
 Text GLabel 14375 2450 0    50   Input ~ 0
 BACKLIGHT_LED_R
-Text GLabel 10800 2525 2    50   Input ~ 0
+Text GLabel 10400 2525 0    50   Input ~ 0
 BACKLIGHT_LED_L
 Text GLabel 2375 8050 0    50   Input ~ 0
 BACKLIGHT_LED_L
