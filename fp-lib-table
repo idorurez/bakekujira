@@ -3,4 +3,5 @@
   (lib (name keebio)(type KiCad)(uri C:/Users/neuro/dev/keyboard/Keebio-Parts.pretty)(options "")(descr ""))
   (lib (name kbd)(type KiCad)(uri C:/Users/neuro/dev/keyboard/kicad/footprints/kbd.pretty)(options "")(descr ""))
   (lib (name keyswitches)(type KiCad)(uri C:/Users/neuro/dev/keyboard/kbd/kicad-footprints/keyswitches.pretty)(options "")(descr ""))
+  (lib (name ai03_random)(type KiCad)(uri C:/Users/neuro/dev/keyboard/random-keyboard-parts.pretty)(options "")(descr ""))
 )
