@@ -1959,17 +1959,17 @@ Text GLabel 9900 1925 0    50   Input ~ 0
 row3_L
 Text GLabel 9900 2025 0    50   Input ~ 0
 row4_L
-Text GLabel 11300 1425 2    50   Input ~ 0
+Text GLabel 11300 2025 2    50   Input ~ 0
 col0_L
-Text GLabel 11300 1525 2    50   Input ~ 0
+Text GLabel 11300 1925 2    50   Input ~ 0
 col1_L
-Text GLabel 11300 1625 2    50   Input ~ 0
+Text GLabel 11300 1825 2    50   Input ~ 0
 col2_L
 Text GLabel 11300 1725 2    50   Input ~ 0
 col3_L
-Text GLabel 11300 1825 2    50   Input ~ 0
+Text GLabel 11300 1625 2    50   Input ~ 0
 col4_L
-Text GLabel 11300 2025 2    50   Input ~ 0
+Text GLabel 11300 1425 2    50   Input ~ 0
 col6_L
 Wire Wire Line
 	9200 1325 9800 1325
@@ -2026,7 +2026,7 @@ Wire Wire Line
 Wire Wire Line
 	17300 5150 17300 6150
 Connection ~ 17300 5150
-Text GLabel 11300 1925 2    50   Input ~ 0
+Text GLabel 11300 1525 2    50   Input ~ 0
 col5_L
 Wire Wire Line
 	9900 1225 9800 1225
