@@ -1529,7 +1529,7 @@ U 1 1 00000581
 P 22950 5400
 F 0 "SW_47" H 22950 5633 60  0000 C CNN
 F 1 "KEYSW" H 22950 5300 60  0001 C CNN
-F 2 "kbd:CherryMX_Hotswap_2.75u_North" H 22950 5400 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap_2.75u_North_reversed_stabilizers" H 22950 5400 60  0001 C CNN
 F 3 "" H 22950 5400 60  0000 C CNN
 	1    22950 5400
 	1    0    0    -1  
