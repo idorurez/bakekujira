@@ -2555,7 +2555,7 @@ F 1 "0.1uF" H 2785 11270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2775 11350 50  0001 C CNN
 F 3 "~" H 2775 11350 50  0001 C CNN
 	1    2775 11350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C72
@@ -2577,7 +2577,7 @@ F 1 "0.1uF" H 2785 13870 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2775 13950 50  0001 C CNN
 F 3 "~" H 2775 13950 50  0001 C CNN
 	1    2775 13950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L kbd:YS-SK6812MINI-E LED32
@@ -2624,39 +2624,6 @@ F 3 "~" H 20725 11100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C70
-U 1 1 666E8CEE
-P 20725 11950
-F 0 "C70" H 20735 12020 50  0000 L CNN
-F 1 "0.1uF" H 20735 11870 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 20725 11950 50  0001 C CNN
-F 3 "~" H 20725 11950 50  0001 C CNN
-	1    20725 11950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C52
-U 1 1 604F80DA
-P 20525 11100
-F 0 "C52" H 20535 11170 50  0000 L CNN
-F 1 "0.1uF" H 20535 11020 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 20525 11100 50  0001 C CNN
-F 3 "~" H 20525 11100 50  0001 C CNN
-	1    20525 11100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C35
-U 1 1 6682B51C
-P 20525 10325
-F 0 "C35" H 20535 10395 50  0000 L CNN
-F 1 "0.1uF" H 20535 10245 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 20525 10325 50  0001 C CNN
-F 3 "~" H 20525 10325 50  0001 C CNN
-	1    20525 10325
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C_Small C69
 U 1 1 604F80DC
 P 20525 11950
@@ -2690,28 +2657,6 @@ F 3 "~" H 19150 11100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C50
-U 1 1 66FE79C4
-P 18900 11100
-F 0 "C50" H 18910 11170 50  0000 L CNN
-F 1 "0.1uF" H 18910 11020 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 18900 11100 50  0001 C CNN
-F 3 "~" H 18900 11100 50  0001 C CNN
-	1    18900 11100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C81
-U 1 1 604F80E2
-P 18900 12850
-F 0 "C81" H 18910 12920 50  0000 L CNN
-F 1 "0.1uF" H 18910 12770 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 18900 12850 50  0001 C CNN
-F 3 "~" H 18900 12850 50  0001 C CNN
-	1    18900 12850
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C_Small C68
 U 1 1 604F80E3
 P 19150 11950
@@ -2732,17 +2677,6 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 19150 12850 50
 F 3 "~" H 19150 12850 50  0001 C CNN
 	1    19150 12850
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C92
-U 1 1 66FEA6BB
-P 19150 13875
-F 0 "C92" H 19160 13945 50  0000 L CNN
-F 1 "0.1uF" H 19160 13795 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 19150 13875 50  0001 C CNN
-F 3 "~" H 19150 13875 50  0001 C CNN
-	1    19150 13875
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C34
@@ -2786,40 +2720,7 @@ F 1 "0.1uF" H 17310 11020 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 17300 11100 50  0001 C CNN
 F 3 "~" H 17300 11100 50  0001 C CNN
 	1    17300 11100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C65
-U 1 1 604F80EB
-P 17300 11950
-F 0 "C65" H 17310 12020 50  0000 L CNN
-F 1 "0.1uF" H 17310 11870 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 17300 11950 50  0001 C CNN
-F 3 "~" H 17300 11950 50  0001 C CNN
-	1    17300 11950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C79
-U 1 1 604F80EC
-P 17300 12850
-F 0 "C79" H 17310 12920 50  0000 L CNN
-F 1 "0.1uF" H 17310 12770 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 17300 12850 50  0001 C CNN
-F 3 "~" H 17300 12850 50  0001 C CNN
-	1    17300 12850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C91
-U 1 1 604F80ED
-P 17300 13875
-F 0 "C91" H 17310 13945 50  0000 L CNN
-F 1 "0.1uF" H 17310 13795 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 17300 13875 50  0001 C CNN
-F 3 "~" H 17300 13875 50  0001 C CNN
-	1    17300 13875
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C49
@@ -2855,17 +2756,6 @@ F 3 "~" H 17500 12850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C54
-U 1 1 604F80F9
-P 22125 11100
-F 0 "C54" H 22135 11170 50  0000 L CNN
-F 1 "0.1uF" H 22135 11020 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22125 11100 50  0001 C CNN
-F 3 "~" H 22125 11100 50  0001 C CNN
-	1    22125 11100
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C_Small C71
 U 1 1 688E2D50
 P 22125 11950
@@ -2875,39 +2765,6 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22125 11950 50
 F 3 "~" H 22125 11950 50  0001 C CNN
 	1    22125 11950
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C84
-U 1 1 688E3522
-P 22125 12850
-F 0 "C84" H 22135 12920 50  0000 L CNN
-F 1 "0.1uF" H 22135 12770 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22125 12850 50  0001 C CNN
-F 3 "~" H 22125 12850 50  0001 C CNN
-	1    22125 12850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C95
-U 1 1 688E4E50
-P 22325 13875
-F 0 "C95" H 22335 13945 50  0000 L CNN
-F 1 "0.1uF" H 22335 13795 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22325 13875 50  0001 C CNN
-F 3 "~" H 22325 13875 50  0001 C CNN
-	1    22325 13875
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C55
-U 1 1 688E5660
-P 22325 11100
-F 0 "C55" H 22335 11170 50  0000 L CNN
-F 1 "0.1uF" H 22335 11020 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22325 11100 50  0001 C CNN
-F 3 "~" H 22325 11100 50  0001 C CNN
-	1    22325 11100
-	-1   0    0    1   
 $EndComp
 Text GLabel 13925 2250 0    50   Input ~ 0
 LED_R
@@ -2963,17 +2820,6 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22325 10325 50
 F 3 "~" H 22325 10325 50  0001 C CNN
 	1    22325 10325
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C33
-U 1 1 6C74E805
-P 18900 10325
-F 0 "C33" H 18910 10395 50  0000 L CNN
-F 1 "0.1uF" H 18910 10245 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 18900 10325 50  0001 C CNN
-F 3 "~" H 18900 10325 50  0001 C CNN
-	1    18900 10325
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	15100 3150 14950 3150
@@ -3253,13 +3099,7 @@ F 3 "" H 18000 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17900 9200 18300 9200
-Wire Wire Line
 	18700 9200 19100 9200
-Wire Wire Line
-	19475 9200 19850 9200
-Wire Wire Line
-	20225 9200 20600 9200
 Wire Wire Line
 	20975 9200 21350 9200
 $Comp
@@ -3271,11 +3111,8 @@ F 1 "0.1uF" H 18310 9020 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 18300 9100 50  0001 C CNN
 F 3 "~" H 18300 9100 50  0001 C CNN
 	1    18300 9100
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
-Connection ~ 18300 9200
-Wire Wire Line
-	18300 9200 18700 9200
 $Comp
 L Device:C_Small C21
 U 1 1 688CED94
@@ -3299,11 +3136,8 @@ F 1 "0.1uF" H 19860 9020 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 19850 9100 50  0001 C CNN
 F 3 "~" H 19850 9100 50  0001 C CNN
 	1    19850 9100
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
-Connection ~ 19850 9200
-Wire Wire Line
-	19850 9200 20225 9200
 $Comp
 L Device:C_Small C23
 U 1 1 688D0755
@@ -3313,11 +3147,8 @@ F 1 "0.1uF" H 20610 9020 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 20600 9100 50  0001 C CNN
 F 3 "~" H 20600 9100 50  0001 C CNN
 	1    20600 9100
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
-Connection ~ 20600 9200
-Wire Wire Line
-	20600 9200 20975 9200
 $Comp
 L Device:C_Small C24
 U 1 1 688D15FC
@@ -3366,7 +3197,7 @@ F 1 "0.1uF" H 6785 8770 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6775 8850 50  0001 C CNN
 F 3 "~" H 6775 8850 50  0001 C CNN
 	1    6775 8850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C13
@@ -3377,7 +3208,7 @@ F 1 "0.1uF" H 7560 8370 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7550 8450 50  0001 C CNN
 F 3 "~" H 7550 8450 50  0001 C CNN
 	1    7550 8450
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C12
@@ -3399,7 +3230,7 @@ F 1 "0.1uF" H 4460 8770 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4450 8850 50  0001 C CNN
 F 3 "~" H 4450 8850 50  0001 C CNN
 	1    4450 8850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR020
@@ -3423,7 +3254,7 @@ F 1 "0.1uF" H 6010 8770 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6000 8850 50  0001 C CNN
 F 3 "~" H 6000 8850 50  0001 C CNN
 	1    6000 8850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	17325 7800 17900 7800
@@ -3436,7 +3267,7 @@ F 1 "0.1uF" H 3685 8370 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3675 8450 50  0001 C CNN
 F 3 "~" H 3675 8450 50  0001 C CNN
 	1    3675 8450
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C9
@@ -3447,7 +3278,7 @@ F 1 "0.1uF" H 4485 8370 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4475 8450 50  0001 C CNN
 F 3 "~" H 4475 8450 50  0001 C CNN
 	1    4475 8450
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C10
@@ -3458,7 +3289,7 @@ F 1 "0.1uF" H 5260 8370 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5250 8450 50  0001 C CNN
 F 3 "~" H 5250 8450 50  0001 C CNN
 	1    5250 8450
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C11
@@ -3469,7 +3300,7 @@ F 1 "0.1uF" H 6035 8370 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6025 8450 50  0001 C CNN
 F 3 "~" H 6025 8450 50  0001 C CNN
 	1    6025 8450
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C15
@@ -3480,7 +3311,7 @@ F 1 "0.1uF" H 3710 8770 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3700 8850 50  0001 C CNN
 F 3 "~" H 3700 8850 50  0001 C CNN
 	1    3700 8850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR022
@@ -3803,17 +3634,6 @@ F 2 "kbd:YS-SK6812MINI-E" H 24700 13525 50  0001 C CNN
 F 3 "" H 24700 13525 50  0001 C CNN
 	1    24600 13775
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C97
-U 1 1 68EA2694
-P 24300 13875
-F 0 "C97" H 24310 13945 50  0000 L CNN
-F 1 "0.1uF" H 24310 13795 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 24300 13875 50  0001 C CNN
-F 3 "~" H 24300 13875 50  0001 C CNN
-	1    24300 13875
-	-1   0    0    1   
 $EndComp
 $Comp
 L kbd:YS-SK6812MINI-E LED98
@@ -4201,7 +4021,7 @@ F 1 "0.1uF" H 24135 11020 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 24125 11100 50  0001 C CNN
 F 3 "~" H 24125 11100 50  0001 C CNN
 	1    24125 11100
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C57
@@ -4212,7 +4032,7 @@ F 1 "0.1uF" H 24310 11020 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 24300 11100 50  0001 C CNN
 F 3 "~" H 24300 11100 50  0001 C CNN
 	1    24300 11100
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C58
@@ -4223,7 +4043,7 @@ F 1 "0.1uF" H 25660 11020 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 25650 11100 50  0001 C CNN
 F 3 "~" H 25650 11100 50  0001 C CNN
 	1    25650 11100
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C38
@@ -4234,7 +4054,7 @@ F 1 "0.1uF" H 24135 10245 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 24125 10325 50  0001 C CNN
 F 3 "~" H 24125 10325 50  0001 C CNN
 	1    24125 10325
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C39
@@ -4245,7 +4065,7 @@ F 1 "0.1uF" H 24310 10245 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 24300 10325 50  0001 C CNN
 F 3 "~" H 24300 10325 50  0001 C CNN
 	1    24300 10325
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L kbd:YS-SK6812MINI-E LED80
@@ -4260,39 +4080,6 @@ F 3 "" H 17900 12500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	16700 11850 16700 12750
-$Comp
-L Device:C_Small C85
-U 1 1 6827A675
-P 24300 12850
-F 0 "C85" H 24310 12920 50  0000 L CNN
-F 1 "0.1uF" H 24310 12770 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 24300 12850 50  0001 C CNN
-F 3 "~" H 24300 12850 50  0001 C CNN
-	1    24300 12850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C96
-U 1 1 69E6E561
-P 24125 13875
-F 0 "C96" H 24135 13945 50  0000 L CNN
-F 1 "0.1uF" H 24135 13795 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 24125 13875 50  0001 C CNN
-F 3 "~" H 24125 13875 50  0001 C CNN
-	1    24125 13875
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C94
-U 1 1 688E40E9
-P 22125 13875
-F 0 "C94" H 22135 13945 50  0000 L CNN
-F 1 "0.1uF" H 22135 13795 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22125 13875 50  0001 C CNN
-F 3 "~" H 22125 13875 50  0001 C CNN
-	1    22125 13875
-	-1   0    0    1   
-$EndComp
 $Comp
 L kbd:YS-SK6812MINI-E LED100
 U 1 1 610597FA
@@ -4317,9 +4104,7 @@ F 3 "" H 2575 11000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2475 11550 2475 11775
-Connection ~ 2775 11250
 Connection ~ 2775 12075
-Connection ~ 2775 13850
 Wire Wire Line
 	2475 14150 2475 14375
 Wire Wire Line
@@ -4421,7 +4206,6 @@ Wire Wire Line
 	5600 13450 6450 13450
 Wire Wire Line
 	5600 13275 5600 13450
-Connection ~ 7525 13850
 $Comp
 L power:VCC #PWR0155
 U 1 1 698CDC2B
@@ -4462,7 +4246,6 @@ F 3 "" H 7525 12075 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7225 11775 7225 11550
-Connection ~ 7525 11250
 $Comp
 L power:VCC #PWR084
 U 1 1 6931980F
@@ -4474,7 +4257,6 @@ F 3 "" H 7525 11250 50  0001 C CNN
 	1    7525 11250
 	1    0    0    -1  
 $EndComp
-Connection ~ 7525 10425
 $Comp
 L power:VCC #PWR039
 U 1 1 69319022
@@ -4570,7 +4352,6 @@ F 3 "" H 5900 12275 50  0001 C CNN
 	1    5900 12275
 	1    0    0    -1  
 $EndComp
-Connection ~ 6150 11250
 $Comp
 L power:VCC #PWR083
 U 1 1 687A91E6
@@ -4582,7 +4363,6 @@ F 3 "" H 6150 11250 50  0001 C CNN
 	1    6150 11250
 	1    0    0    -1  
 $EndComp
-Connection ~ 5900 11250
 $Comp
 L power:VCC #PWR082
 U 1 1 687A8976
@@ -4594,7 +4374,6 @@ F 3 "" H 5900 11250 50  0001 C CNN
 	1    5900 11250
 	1    0    0    -1  
 $EndComp
-Connection ~ 6150 10425
 $Comp
 L power:VCC #PWR038
 U 1 1 68582C09
@@ -4719,7 +4498,6 @@ F 3 "" H 4325 12075 50  0001 C CNN
 	1    4325 12075
 	1    0    0    -1  
 $EndComp
-Connection ~ 4550 11250
 $Comp
 L power:VCC #PWR081
 U 1 1 670219B0
@@ -4731,7 +4509,6 @@ F 3 "" H 4550 11250 50  0001 C CNN
 	1    4550 11250
 	1    0    0    -1  
 $EndComp
-Connection ~ 4325 11250
 $Comp
 L power:VCC #PWR080
 U 1 1 67021134
@@ -5057,7 +4834,7 @@ F 1 "0.1uF" H 5910 11270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5900 11350 50  0001 C CNN
 F 3 "~" H 5900 11350 50  0001 C CNN
 	1    5900 11350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C64
@@ -5068,7 +4845,7 @@ F 1 "0.1uF" H 7535 11270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7525 11350 50  0001 C CNN
 F 3 "~" H 7525 11350 50  0001 C CNN
 	1    7525 11350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C86
@@ -5101,7 +4878,7 @@ F 1 "0.1uF" H 4335 11270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4325 11350 50  0001 C CNN
 F 3 "~" H 4325 11350 50  0001 C CNN
 	1    4325 11350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C43
@@ -5156,7 +4933,7 @@ F 1 "0.1uF" H 4560 11270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4550 11350 50  0001 C CNN
 F 3 "~" H 4550 11350 50  0001 C CNN
 	1    4550 11350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C44
@@ -5200,7 +4977,7 @@ F 1 "0.1uF" H 6160 11270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6150 11350 50  0001 C CNN
 F 3 "~" H 6150 11350 50  0001 C CNN
 	1    6150 11350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C46
@@ -5211,7 +4988,7 @@ F 1 "0.1uF" H 6160 10445 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6150 10525 50  0001 C CNN
 F 3 "~" H 6150 10525 50  0001 C CNN
 	1    6150 10525
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C47
@@ -5222,7 +4999,7 @@ F 1 "0.1uF" H 7535 10445 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7525 10525 50  0001 C CNN
 F 3 "~" H 7525 10525 50  0001 C CNN
 	1    7525 10525
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L kbd:YS-SK6812MINI-E LED89
@@ -5266,7 +5043,7 @@ F 1 "0.1uF" H 7535 13870 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7525 13950 50  0001 C CNN
 F 3 "~" H 7525 13950 50  0001 C CNN
 	1    7525 13950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L kbd:YS-SK6812MINI-E LED87
@@ -5624,7 +5401,7 @@ F 1 "0.1uF" H 25660 10245 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 25650 10325 50  0001 C CNN
 F 3 "~" H 25650 10325 50  0001 C CNN
 	1    25650 10325
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	25350 10700 25350 10525
@@ -5639,7 +5416,7 @@ F 1 "0.1uF" H 25660 13795 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 25650 13875 50  0001 C CNN
 F 3 "~" H 25650 13875 50  0001 C CNN
 	1    25650 13875
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	25350 14075 24600 14075
@@ -5752,17 +5529,6 @@ Wire Wire Line
 	19450 13050 19450 13475
 Wire Wire Line
 	18600 9925 19450 9925
-$Comp
-L Device:C_Small C67
-U 1 1 604F80E1
-P 18900 11950
-F 0 "C67" H 18910 12020 50  0000 L CNN
-F 1 "0.1uF" H 18910 11870 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 18900 11950 50  0001 C CNN
-F 3 "~" H 18900 11950 50  0001 C CNN
-	1    18900 11950
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	18600 10525 18600 10700
 Wire Wire Line
@@ -5882,8 +5648,6 @@ Wire Wire Line
 	17000 10700 17000 10525
 Wire Wire Line
 	6450 12375 6450 12675
-Wire Wire Line
-	21750 9200 22125 9200
 $Comp
 L Device:C_Small C25
 U 1 1 60A8B6B3
@@ -5893,11 +5657,8 @@ F 1 "0.1uF" H 22135 9020 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22125 9100 50  0001 C CNN
 F 3 "~" H 22125 9100 50  0001 C CNN
 	1    22125 9100
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
-Connection ~ 22125 9200
-Wire Wire Line
-	22125 9200 22500 9200
 $Comp
 L kbd:YS-SK6812MINI-E LED20
 U 1 1 60A8B6BB
@@ -5998,7 +5759,7 @@ F 1 "0.1uF" H 2935 8370 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2925 8450 50  0001 C CNN
 F 3 "~" H 2925 8450 50  0001 C CNN
 	1    2925 8450
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2825 8250 2975 8250
@@ -6022,7 +5783,7 @@ F 1 "0.1uF" H 5260 8770 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5250 8850 50  0001 C CNN
 F 3 "~" H 5250 8850 50  0001 C CNN
 	1    5250 8850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5900 9050 6100 9050
@@ -6150,17 +5911,6 @@ Wire Wire Line
 Wire Wire Line
 	21525 13775 21525 12750
 Connection ~ 21525 13775
-$Comp
-L kbd:YS-SK6812MINI-E LED94
-U 1 1 604F80B5
-P 21825 13775
-F 0 "LED94" H 22169 13805 29  0000 L CNN
-F 1 "YS-SK6812MINI-E" H 22169 13746 29  0000 L CNN
-F 2 "kbd:YS-SK6812MINI-E" H 21925 13525 50  0001 C CNN
-F 3 "" H 21925 13525 50  0001 C CNN
-	1    21825 13775
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	19925 12750 19925 13775
 Wire Wire Line
@@ -6820,7 +6570,6 @@ F 3 "" H 25650 10225 50  0001 C CNN
 	1    25650 10225
 	1    0    0    -1  
 $EndComp
-Connection ~ 25650 10225
 $Comp
 L power:VDD #PWR094
 U 1 1 60DC270F
@@ -6843,7 +6592,6 @@ F 3 "" H 24300 10225 50  0001 C CNN
 	1    24300 10225
 	1    0    0    -1  
 $EndComp
-Connection ~ 24300 10225
 $Comp
 L power:VDD #PWR030
 U 1 1 60DC3F2C
@@ -6855,7 +6603,6 @@ F 3 "" H 24125 10225 50  0001 C CNN
 	1    24125 10225
 	1    0    0    -1  
 $EndComp
-Connection ~ 24125 10225
 $Comp
 L power:VDD #PWR066
 U 1 1 60DC4596
@@ -6867,7 +6614,6 @@ F 3 "" H 24300 11000 50  0001 C CNN
 	1    24300 11000
 	1    0    0    -1  
 $EndComp
-Connection ~ 24300 11000
 $Comp
 L power:VDD #PWR067
 U 1 1 60DC4EFD
@@ -6879,7 +6625,6 @@ F 3 "" H 25650 11000 50  0001 C CNN
 	1    25650 11000
 	1    0    0    -1  
 $EndComp
-Connection ~ 25650 11000
 $Comp
 L power:VDD #PWR065
 U 1 1 60DC54F1
@@ -6891,7 +6636,6 @@ F 3 "" H 24125 11000 50  0001 C CNN
 	1    24125 11000
 	1    0    0    -1  
 $EndComp
-Connection ~ 24125 11000
 $Comp
 L power:VDD #PWR0125
 U 1 1 60DC5C40
@@ -6903,7 +6647,6 @@ F 3 "" H 24300 12750 50  0001 C CNN
 	1    24300 12750
 	1    0    0    -1  
 $EndComp
-Connection ~ 24300 12750
 $Comp
 L power:VDD #PWR0150
 U 1 1 60DC6EBF
@@ -6915,7 +6658,6 @@ F 3 "" H 25650 13775 50  0001 C CNN
 	1    25650 13775
 	1    0    0    -1  
 $EndComp
-Connection ~ 25650 13775
 $Comp
 L power:VDD #PWR0149
 U 1 1 60DC7343
@@ -6927,7 +6669,6 @@ F 3 "" H 24300 13775 50  0001 C CNN
 	1    24300 13775
 	1    0    0    -1  
 $EndComp
-Connection ~ 24300 13775
 $Comp
 L power:VDD #PWR0148
 U 1 1 60DC7C00
@@ -6939,7 +6680,6 @@ F 3 "" H 24125 13775 50  0001 C CNN
 	1    24125 13775
 	1    0    0    -1  
 $EndComp
-Connection ~ 24125 13775
 $Comp
 L power:VDD #PWR0147
 U 1 1 60DC918B
@@ -6951,7 +6691,6 @@ F 3 "" H 22325 13775 50  0001 C CNN
 	1    22325 13775
 	1    0    0    -1  
 $EndComp
-Connection ~ 22325 13775
 $Comp
 L power:VDD #PWR0146
 U 1 1 60DC976B
@@ -6963,7 +6702,6 @@ F 3 "" H 22125 13775 50  0001 C CNN
 	1    22125 13775
 	1    0    0    -1  
 $EndComp
-Connection ~ 22125 13775
 $Comp
 L power:VDD #PWR0124
 U 1 1 60DC9CFC
@@ -6975,7 +6713,6 @@ F 3 "" H 22125 12750 50  0001 C CNN
 	1    22125 12750
 	1    0    0    -1  
 $EndComp
-Connection ~ 22125 12750
 $Comp
 L power:VDD #PWR097
 U 1 1 60DCAA2A
@@ -6999,7 +6736,6 @@ F 3 "" H 22325 11000 50  0001 C CNN
 	1    22325 11000
 	1    0    0    -1  
 $EndComp
-Connection ~ 22325 11000
 $Comp
 L power:VDD #PWR063
 U 1 1 60DCB9BD
@@ -7011,7 +6747,6 @@ F 3 "" H 22125 11000 50  0001 C CNN
 	1    22125 11000
 	1    0    0    -1  
 $EndComp
-Connection ~ 22125 11000
 $Comp
 L power:VDD #PWR029
 U 1 1 60DCBFAE
@@ -7075,7 +6810,6 @@ F 3 "" H 20525 10225 50  0001 C CNN
 	1    20525 10225
 	1    0    0    -1  
 $EndComp
-Connection ~ 20525 10225
 $Comp
 L power:VDD #PWR061
 U 1 1 60DD36AD
@@ -7087,7 +6821,6 @@ F 3 "" H 20525 11000 50  0001 C CNN
 	1    20525 11000
 	1    0    0    -1  
 $EndComp
-Connection ~ 20525 11000
 $Comp
 L power:VDD #PWR062
 U 1 1 60DD3D28
@@ -7123,7 +6856,6 @@ F 3 "" H 20725 11850 50  0001 C CNN
 	1    20725 11850
 	1    0    0    -1  
 $EndComp
-Connection ~ 20725 11850
 $Comp
 L power:VDD #PWR0123
 U 1 1 60DD48D5
@@ -7159,7 +6891,6 @@ F 3 "" H 19150 13775 50  0001 C CNN
 	1    19150 13775
 	1    0    0    -1  
 $EndComp
-Connection ~ 19150 13775
 $Comp
 L power:VDD #PWR0122
 U 1 1 60DD60C0
@@ -7183,7 +6914,6 @@ F 3 "" H 18900 12750 50  0001 C CNN
 	1    18900 12750
 	1    0    0    -1  
 $EndComp
-Connection ~ 18900 12750
 Connection ~ 19150 11850
 $Comp
 L power:VDD #PWR093
@@ -7196,7 +6926,6 @@ F 3 "" H 18900 11850 50  0001 C CNN
 	1    18900 11850
 	1    0    0    -1  
 $EndComp
-Connection ~ 18900 11850
 $Comp
 L power:VDD #PWR059
 U 1 1 60DD76E4
@@ -7208,7 +6937,6 @@ F 3 "" H 18900 11000 50  0001 C CNN
 	1    18900 11000
 	1    0    0    -1  
 $EndComp
-Connection ~ 18900 11000
 $Comp
 L power:VDD #PWR060
 U 1 1 60DD7FC5
@@ -7244,7 +6972,6 @@ F 3 "" H 18900 10225 50  0001 C CNN
 	1    18900 10225
 	1    0    0    -1  
 $EndComp
-Connection ~ 18900 10225
 $Comp
 L power:VDD #PWR058
 U 1 1 60DD9A83
@@ -7268,7 +6995,6 @@ F 3 "" H 17300 11000 50  0001 C CNN
 	1    17300 11000
 	1    0    0    -1  
 $EndComp
-Connection ~ 17300 11000
 $Comp
 L power:VDD #PWR024
 U 1 1 60DDA8DC
@@ -7292,7 +7018,6 @@ F 3 "" H 17300 11850 50  0001 C CNN
 	1    17300 11850
 	1    0    0    -1  
 $EndComp
-Connection ~ 17300 11850
 $Comp
 L power:VDD #PWR092
 U 1 1 60DDB2B0
@@ -7316,7 +7041,6 @@ F 3 "" H 17300 12750 50  0001 C CNN
 	1    17300 12750
 	1    0    0    -1  
 $EndComp
-Connection ~ 17300 12750
 $Comp
 L power:VDD #PWR0120
 U 1 1 60DDBCC6
@@ -7340,7 +7064,6 @@ F 3 "" H 17300 13775 50  0001 C CNN
 	1    17300 13775
 	1    0    0    -1  
 $EndComp
-Connection ~ 17300 13775
 Wire Wire Line
 	25050 11000 25050 10225
 Wire Wire Line
@@ -7386,11 +7109,6 @@ Wire Wire Line
 	2225 9875 2475 9875
 Connection ~ 2525 7950
 Wire Wire Line
-	2850 8750 3700 8750
-Connection ~ 3700 8750
-Wire Wire Line
-	3700 8750 4075 8750
-Wire Wire Line
 	4850 7950 5250 7950
 Wire Wire Line
 	6400 7950 6800 7950
@@ -7412,67 +7130,21 @@ Wire Wire Line
 	3700 9350 4075 9350
 Connection ~ 4075 9350
 Wire Wire Line
-	4075 8750 4450 8750
-Wire Wire Line
 	7550 8750 7550 8550
 Connection ~ 4075 8750
-Connection ~ 4450 8750
-Wire Wire Line
-	4450 8750 4850 8750
 Connection ~ 4850 8750
-Wire Wire Line
-	4850 8750 5250 8750
-Connection ~ 5250 8750
-Wire Wire Line
-	5250 8750 5600 8750
 Connection ~ 5600 8750
-Wire Wire Line
-	5600 8750 6000 8750
-Connection ~ 6000 8750
-Wire Wire Line
-	6000 8750 6400 8750
 Connection ~ 6400 8750
-Wire Wire Line
-	6400 8750 6775 8750
-Connection ~ 6775 8750
-Wire Wire Line
-	6775 8750 7150 8750
 Connection ~ 7150 8750
 Wire Wire Line
 	7150 8750 7550 8750
 Wire Wire Line
 	7550 8550 7150 8550
-Connection ~ 7550 8550
-Connection ~ 2925 8550
-Wire Wire Line
-	2925 8550 2525 8550
 Connection ~ 3275 8550
-Wire Wire Line
-	3275 8550 2925 8550
-Connection ~ 3675 8550
-Wire Wire Line
-	3675 8550 3275 8550
 Connection ~ 4075 8550
-Wire Wire Line
-	4075 8550 3675 8550
-Connection ~ 4475 8550
-Wire Wire Line
-	4475 8550 4075 8550
 Connection ~ 4850 8550
-Wire Wire Line
-	4850 8550 4475 8550
-Connection ~ 5250 8550
-Wire Wire Line
-	5250 8550 4850 8550
 Connection ~ 5600 8550
-Wire Wire Line
-	5600 8550 5250 8550
-Connection ~ 6025 8550
-Wire Wire Line
-	6025 8550 5600 8550
 Connection ~ 6400 8550
-Wire Wire Line
-	6400 8550 6025 8550
 Connection ~ 6800 8550
 Wire Wire Line
 	6800 8550 6400 8550
@@ -7615,12 +7287,10 @@ F 1 "0.1uF" H 24460 9020 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 24450 9100 50  0001 C CNN
 F 3 "~" H 24450 9100 50  0001 C CNN
 	1    24450 9100
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	24450 9000 24450 8500
-Wire Wire Line
-	24825 9200 24450 9200
 Connection ~ 24825 9200
 Connection ~ 24450 8500
 $Comp
@@ -7680,9 +7350,6 @@ Wire Wire Line
 	24000 8500 24450 8500
 Wire Wire Line
 	24300 8900 24525 8900
-Wire Wire Line
-	24450 9200 24000 9200
-Connection ~ 24450 9200
 Connection ~ 24000 9200
 Wire Wire Line
 	26325 8600 26325 8500
@@ -7962,9 +7629,347 @@ Connection ~ 20975 8500
 Wire Wire Line
 	21275 8900 21450 8900
 Wire Wire Line
-	21350 8000 21350 9000
-Wire Wire Line
-	20975 8500 21750 8500
+	20975 8500 21350 8500
 Wire Wire Line
 	20975 8600 20975 8500
+Wire Wire Line
+	21350 8000 21350 8500
+Connection ~ 21350 8500
+Wire Wire Line
+	21350 8500 21750 8500
+Wire Wire Line
+	21350 8500 21350 9000
+$Comp
+L kbd:YS-SK6812MINI-E LED94
+U 1 1 604F80B5
+P 21825 13775
+F 0 "LED94" H 22169 13805 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 22169 13746 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 21925 13525 50  0001 C CNN
+F 3 "" H 21925 13525 50  0001 C CNN
+	1    21825 13775
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C85
+U 1 1 6827A675
+P 24300 12850
+F 0 "C85" H 24310 12920 50  0000 L CNN
+F 1 "0.1uF" H 24310 12770 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 24300 12850 50  0001 C CNN
+F 3 "~" H 24300 12850 50  0001 C CNN
+	1    24300 12850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C97
+U 1 1 68EA2694
+P 24300 13875
+F 0 "C97" H 24310 13945 50  0000 L CNN
+F 1 "0.1uF" H 24310 13795 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 24300 13875 50  0001 C CNN
+F 3 "~" H 24300 13875 50  0001 C CNN
+	1    24300 13875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C96
+U 1 1 69E6E561
+P 24125 13875
+F 0 "C96" H 24135 13945 50  0000 L CNN
+F 1 "0.1uF" H 24135 13795 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 24125 13875 50  0001 C CNN
+F 3 "~" H 24125 13875 50  0001 C CNN
+	1    24125 13875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C95
+U 1 1 688E4E50
+P 22325 13875
+F 0 "C95" H 22335 13945 50  0000 L CNN
+F 1 "0.1uF" H 22335 13795 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22325 13875 50  0001 C CNN
+F 3 "~" H 22325 13875 50  0001 C CNN
+	1    22325 13875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C94
+U 1 1 688E40E9
+P 22125 13875
+F 0 "C94" H 22135 13945 50  0000 L CNN
+F 1 "0.1uF" H 22135 13795 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22125 13875 50  0001 C CNN
+F 3 "~" H 22125 13875 50  0001 C CNN
+	1    22125 13875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C84
+U 1 1 688E3522
+P 22125 12850
+F 0 "C84" H 22135 12920 50  0000 L CNN
+F 1 "0.1uF" H 22135 12770 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22125 12850 50  0001 C CNN
+F 3 "~" H 22125 12850 50  0001 C CNN
+	1    22125 12850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C55
+U 1 1 688E5660
+P 22325 11100
+F 0 "C55" H 22335 11170 50  0000 L CNN
+F 1 "0.1uF" H 22335 11020 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22325 11100 50  0001 C CNN
+F 3 "~" H 22325 11100 50  0001 C CNN
+	1    22325 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C54
+U 1 1 604F80F9
+P 22125 11100
+F 0 "C54" H 22135 11170 50  0000 L CNN
+F 1 "0.1uF" H 22135 11020 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 22125 11100 50  0001 C CNN
+F 3 "~" H 22125 11100 50  0001 C CNN
+	1    22125 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C35
+U 1 1 6682B51C
+P 20525 10325
+F 0 "C35" H 20535 10395 50  0000 L CNN
+F 1 "0.1uF" H 20535 10245 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 20525 10325 50  0001 C CNN
+F 3 "~" H 20525 10325 50  0001 C CNN
+	1    20525 10325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C52
+U 1 1 604F80DA
+P 20525 11100
+F 0 "C52" H 20535 11170 50  0000 L CNN
+F 1 "0.1uF" H 20535 11020 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 20525 11100 50  0001 C CNN
+F 3 "~" H 20525 11100 50  0001 C CNN
+	1    20525 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C70
+U 1 1 666E8CEE
+P 20725 11950
+F 0 "C70" H 20735 12020 50  0000 L CNN
+F 1 "0.1uF" H 20735 11870 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 20725 11950 50  0001 C CNN
+F 3 "~" H 20725 11950 50  0001 C CNN
+	1    20725 11950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C92
+U 1 1 66FEA6BB
+P 19150 13875
+F 0 "C92" H 19160 13945 50  0000 L CNN
+F 1 "0.1uF" H 19160 13795 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 19150 13875 50  0001 C CNN
+F 3 "~" H 19150 13875 50  0001 C CNN
+	1    19150 13875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C81
+U 1 1 604F80E2
+P 18900 12850
+F 0 "C81" H 18910 12920 50  0000 L CNN
+F 1 "0.1uF" H 18910 12770 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 18900 12850 50  0001 C CNN
+F 3 "~" H 18900 12850 50  0001 C CNN
+	1    18900 12850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C91
+U 1 1 604F80ED
+P 17300 13875
+F 0 "C91" H 17310 13945 50  0000 L CNN
+F 1 "0.1uF" H 17310 13795 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 17300 13875 50  0001 C CNN
+F 3 "~" H 17300 13875 50  0001 C CNN
+	1    17300 13875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C79
+U 1 1 604F80EC
+P 17300 12850
+F 0 "C79" H 17310 12920 50  0000 L CNN
+F 1 "0.1uF" H 17310 12770 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 17300 12850 50  0001 C CNN
+F 3 "~" H 17300 12850 50  0001 C CNN
+	1    17300 12850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C50
+U 1 1 66FE79C4
+P 18900 11100
+F 0 "C50" H 18910 11170 50  0000 L CNN
+F 1 "0.1uF" H 18910 11020 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 18900 11100 50  0001 C CNN
+F 3 "~" H 18900 11100 50  0001 C CNN
+	1    18900 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C33
+U 1 1 6C74E805
+P 18900 10325
+F 0 "C33" H 18910 10395 50  0000 L CNN
+F 1 "0.1uF" H 18910 10245 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 18900 10325 50  0001 C CNN
+F 3 "~" H 18900 10325 50  0001 C CNN
+	1    18900 10325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C65
+U 1 1 604F80EB
+P 17300 11950
+F 0 "C65" H 17310 12020 50  0000 L CNN
+F 1 "0.1uF" H 17310 11870 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 17300 11950 50  0001 C CNN
+F 3 "~" H 17300 11950 50  0001 C CNN
+	1    17300 11950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C67
+U 1 1 604F80E1
+P 18900 11950
+F 0 "C67" H 18910 12020 50  0000 L CNN
+F 1 "0.1uF" H 18910 11870 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 18900 11950 50  0001 C CNN
+F 3 "~" H 18900 11950 50  0001 C CNN
+	1    18900 11950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4325 11250
+Connection ~ 4550 11250
+Connection ~ 5900 11250
+Connection ~ 6150 11250
+Wire Wire Line
+	4075 8550 4475 8550
+Connection ~ 4475 8550
+Wire Wire Line
+	4475 8550 4850 8550
+Connection ~ 6150 10425
+Connection ~ 7525 10425
+Connection ~ 2775 11250
+Wire Wire Line
+	2525 8550 2925 8550
+Connection ~ 2925 8550
+Wire Wire Line
+	2925 8550 3275 8550
+Wire Wire Line
+	3275 8550 3675 8550
+Connection ~ 3675 8550
+Wire Wire Line
+	3675 8550 4075 8550
+Wire Wire Line
+	4850 8550 5250 8550
+Connection ~ 5250 8550
+Wire Wire Line
+	5250 8550 5600 8550
+Wire Wire Line
+	5600 8550 6025 8550
+Connection ~ 6025 8550
+Wire Wire Line
+	6025 8550 6400 8550
+Wire Wire Line
+	2850 8750 3700 8750
+Connection ~ 3700 8750
+Wire Wire Line
+	3700 8750 4075 8750
+Connection ~ 7525 11250
+Wire Wire Line
+	4075 8750 4450 8750
+Connection ~ 4450 8750
+Wire Wire Line
+	4450 8750 4850 8750
+Wire Wire Line
+	6400 8750 6775 8750
+Connection ~ 6775 8750
+Wire Wire Line
+	6775 8750 7150 8750
+Wire Wire Line
+	5600 8750 6000 8750
+Connection ~ 6000 8750
+Wire Wire Line
+	6000 8750 6400 8750
+Wire Wire Line
+	4850 8750 5250 8750
+Connection ~ 5250 8750
+Wire Wire Line
+	5250 8750 5600 8750
+Connection ~ 2775 13850
+Connection ~ 7525 13850
+Connection ~ 7550 8550
+Connection ~ 18900 10225
+Connection ~ 20525 10225
+Connection ~ 24125 10225
+Connection ~ 24300 10225
+Connection ~ 25650 10225
+Connection ~ 25650 11000
+Connection ~ 24300 11000
+Connection ~ 24125 11000
+Connection ~ 22325 11000
+Connection ~ 22125 11000
+Connection ~ 20525 11000
+Connection ~ 18900 11000
+Connection ~ 17300 11000
+Connection ~ 17300 11850
+Connection ~ 18900 11850
+Connection ~ 20725 11850
+Connection ~ 24300 12750
+Wire Wire Line
+	24000 9200 24450 9200
+Connection ~ 24450 9200
+Wire Wire Line
+	24450 9200 24825 9200
+Connection ~ 25650 13775
+Connection ~ 24300 13775
+Connection ~ 24125 13775
+Connection ~ 22325 13775
+Connection ~ 22125 13775
+Connection ~ 22125 12750
+Wire Wire Line
+	21750 9200 22125 9200
+Connection ~ 22125 9200
+Wire Wire Line
+	22125 9200 22500 9200
+Connection ~ 18900 12750
+Wire Wire Line
+	20225 9200 20600 9200
+Connection ~ 20600 9200
+Wire Wire Line
+	20600 9200 20975 9200
+Connection ~ 19150 13775
+Connection ~ 17300 13775
+Wire Wire Line
+	19475 9200 19850 9200
+Connection ~ 19850 9200
+Wire Wire Line
+	19850 9200 20225 9200
+Connection ~ 17300 12750
+Wire Wire Line
+	17900 9200 18300 9200
+Connection ~ 18300 9200
+Wire Wire Line
+	18300 9200 18700 9200
 $EndSCHEMATC

@@ -5,4 +5,5 @@
   (lib (name keyswitches)(type KiCad)(uri C:/Users/neuro/dev/keyboard/kbd/kicad-footprints/keyswitches.pretty)(options "")(descr ""))
   (lib (name ai03_random)(type KiCad)(uri C:/Users/neuro/dev/keyboard/random-keyboard-parts.pretty)(options "")(descr ""))
   (lib (name mj-4pp-9)(type KiCad)(uri C:/Users/neuro/dev/keyboard/kicad-MJ-4PP-9/MJ-4PP-9.pretty)(options "")(descr ""))
+  (lib (name bake-kujira)(type KiCad)(uri C:/Users/neuro/dev/keyboard/onigaku/bakekujira/lib)(options "")(descr ""))
 )
