@@ -8,7 +8,7 @@
 * split 
 * per-key rgb
 * backlit
-* Proton-C supported
+* Proton-C
 * support for 128x32 or 256x32 (256x32 wip)
 * QMK
 
@@ -18,6 +18,10 @@
 
 ## Notes
 * Sorry for not using Kanji, thought Kana had a better overall fit!
+
+## TODO
+* build case
+* working out breakout board for 256x32 (see other repo)
 
 ## Credits
 * Drashna
