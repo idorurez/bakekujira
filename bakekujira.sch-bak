@@ -2750,21 +2750,21 @@ Text GLabel 9925 2300 0    50   Input ~ 0
 LED_L
 Text GLabel 1475 9050 0    50   Input ~ 0
 LED_L
-Text GLabel 15475 1675 2    47   Input ~ 0
+Text GLabel 15475 3175 2    47   Input ~ 0
 col1_R
-Text GLabel 15475 1775 2    47   Input ~ 0
+Text GLabel 15475 3075 2    47   Input ~ 0
 col2_R
-Text GLabel 15475 1875 2    47   Input ~ 0
+Text GLabel 15475 2275 2    47   Input ~ 0
 col3_R
-Text GLabel 15475 1975 2    47   Input ~ 0
+Text GLabel 15475 2175 2    47   Input ~ 0
 col4_R
 Text GLabel 15475 2075 2    47   Input ~ 0
 col5_R
-Text GLabel 15475 1575 2    47   Input ~ 0
+Text GLabel 15475 3275 2    47   Input ~ 0
 col0_R
-Text GLabel 15475 2175 2    47   Input ~ 0
+Text GLabel 15475 1975 2    47   Input ~ 0
 col6_R
-Text GLabel 15475 2275 2    47   Input ~ 0
+Text GLabel 15475 1875 2    47   Input ~ 0
 col7_R
 NoConn ~ 11975 1200
 NoConn ~ 9925 1300
@@ -3929,11 +3929,9 @@ Connection ~ 24700 6800
 Wire Wire Line
 	25700 5800 22900 5800
 Connection ~ 22900 5800
-Text GLabel 15475 3075 2    50   Input ~ 0
-col8_R
-Text GLabel 15475 3175 2    50   Input ~ 0
+Text GLabel 15475 1675 2    50   Input ~ 0
 col9_R
-Text GLabel 15475 3275 2    50   Input ~ 0
+Text GLabel 15475 1575 2    50   Input ~ 0
 col10_R
 $Comp
 L kbd:YS-SK6812MINI-E LED85
@@ -8021,4 +8019,6 @@ Text GLabel 12675 6000 3    50   Input ~ 0
 data_R
 NoConn ~ 11975 1500
 NoConn ~ 15475 1475
+Text GLabel 15475 1775 2    50   Input ~ 0
+col8_R
 $EndSCHEMATC
