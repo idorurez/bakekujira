@@ -12,8 +12,17 @@
 * support for 128x32 or 256x32 (256x32 wip)
 * QMK
 
+## Installation
+1. clone qmk_firmware
+2. `cd qmk_firmware/`
+3. Grab the chibios submodules:
+   `git submodule sync —recursive && git submodule update --init —recursive`
+4. open up qmk msys
+5. `qmk compile -kb bakekujira -km default`
+
 ## Notes
 * `onigaku` repo (not included in this repo) has all symbols and footprints
+* Sorry for not using Kanji, thought Kana had a better overall fit!
 
 ## Inspiration
 Picked apart a lot of boards, including:
@@ -21,9 +30,6 @@ Picked apart a lot of boards, including:
 * Corne Waffle
 * marevelous65 split
 * ganymede
-
-## Notes
-* Sorry for not using Kanji, thought Kana had a better overall fit!
 
 ## TODO
 * build case
