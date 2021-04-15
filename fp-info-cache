@@ -1,4 +1,4 @@
-19668774501038984
+19670393650116681
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83216,14 +83216,14 @@ bakekujira-logo-large
 0
 0
 bake-kujira
-bakekujira-logo-large-bg
+bakekujira-logo_small
 
 
 0
 0
 0
 bake-kujira
-bakekujira-logo_small
+onigakuen-keylab-square_15mmx15mm
 
 
 0
@@ -85338,6 +85338,13 @@ CONN DEV
 4
 onigaku
 OLED_1side
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
+onigaku
+OLED_256x32
 Connecteur 6 pins
 CONN DEV
 0
