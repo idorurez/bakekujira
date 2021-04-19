@@ -9,7 +9,7 @@
 * per-key RGB
 * underglow
 * Proton-C
-* support for 128x32 or 256x32 (256x32 wip)
+* support for 128x32
 * QMK
 
 # BOM
@@ -31,7 +31,7 @@ Part | Part number | Number needed | Link
 # Software
 
 ## Installation
-1. clone qmk_firmware
+1. clone my fork of qmk_firmware
 2. `cd qmk_firmware/`
 3. Grab the chibios submodules:
    `git submodule sync —recursive && git submodule update --init —recursive`
@@ -67,8 +67,16 @@ Picked apart a lot of boards, including:
 * build plate
 * working out breakout board for 256x32 (see other SSD1326 breakout repo)
 
+## REV2
+* move proton-c and plugs out instead of tucked in line with the top row to allow for more case options
+* Add holes for M2x4 or M2x9 screws/standoffs to allow for more case options
+* sound and speakers
+* oled 256x32, which may end up here under rev1
+
 ## Credits
+My QMK friends who have not openly judged me on being an idiot (except for xyz):
 * Drashna
 * foostan
 * waffle
 * tzarc
+* xyz
