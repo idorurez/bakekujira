@@ -16,6 +16,7 @@
 
 Part | Part number | Number needed | Link
 ------------ | ------------- | ------------- | -------------
+ Proton-C | n/a | 2 | https://mkultra.click/qmk-proton-c/ note: EXTREMELY LIMITED stock everywhere, most are gone
  Mill Max low profile Sockets | 315-47-164-41-001000 | X | n/a
  Mill Max pins Pins |  3320-0-00-15-00-00-03-0 | X |  n/a
  LEDs | SK6812MINI-E | 104 (or get as many as you can) | https://www.aliexpress.com/item/4000476037223.html?spm=a2g0s.9042311.0.0.27424c4dQxUpgR 
