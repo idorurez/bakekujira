@@ -7991,11 +7991,7 @@ Wire Wire Line
 Wire Wire Line
 	3575 10425 3575 12975
 Wire Wire Line
-	11975 1500 12275 1500
-Wire Wire Line
 	10425 5150 10925 5150
-Wire Wire Line
-	15900 1475 15475 1475
 $Comp
 L power:VCC #PWR0179
 U 1 1 609B34A3
